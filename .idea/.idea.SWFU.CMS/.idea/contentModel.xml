@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="SWFU.CMS.API" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="appsettings.Production.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="cms.db" t="Include" />
+        <e p="Controllers" t="Include">
+          <e p="PostController.cs" t="Include" />
+          <e p="ValueController.cs" t="Include" />
+        </e>
+        <e p="Extensions" t="Include">
+          <e p="ExceptionHandlingExtensions.cs" t="Include" />
+          <e p="MappingProfile.cs" t="Include" />
+        </e>
+        <e p="logs" t="Include">
+          <e p="log20190108.txt" t="Include" />
+          <e p="log20190109.txt" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="SWFU.CMS.API.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="StartupDevelopment.cs" t="Include" />
+        <e p="StartupProduction.cs" t="Include" />
+        <e p="SWFU.CMS.API.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="SWFU.CMS.Core" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Entities" t="Include">
+          <e p="Entity.cs" t="Include" />
+          <e p="Post.cs" t="Include" />
+        </e>
+        <e p="interfaces" t="Include">
+          <e p="IEntity.cs" t="Include" />
+          <e p="IPostRepository.cs" t="Include" />
+          <e p="IUnitOfWork.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="SWFU.CMS.Core.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="SWFU.CMS.Core.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="SWFU.CMS.Insfrastructure" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Database" t="Include">
+          <e p="MyContext.cs" t="Include" />
+          <e p="MyContextSeed.cs" t="Include" />
+          <e p="UnitOfWork.cs" t="Include" />
+        </e>
+        <e p="EntityConfigurations" t="Include">
+          <e p="PostConfiguration.cs" t="Include" />
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20190108054551_Initial.cs" t="Include" />
+          <e p="20190108054551_Initial.Designer.cs" t="Include" />
+          <e p="MyContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="SWFU.CMS.Insfrastructure.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="PostRepository.cs" t="Include" />
+        </e>
+        <e p="Resources" t="Include">
+          <e p="PostResource.cs" t="Include" />
+          <e p="PostResourceValidator.cs" t="Include" />
+        </e>
+        <e p="SWFU.CMS.Insfrastructure.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="SWFU.CMS.sln" t="IncludeFlat" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_SWFU.CMS.-1573897522.00" t="ExcludeRecursive" />
+  </component>
+</project>

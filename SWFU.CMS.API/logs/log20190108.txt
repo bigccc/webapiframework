@@ -1,0 +1,23 @@
+2019-01-08 23:12:23.458 +08:00 [INF] Entity Framework Core 2.2.0-rtm-35687 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-01-08 23:12:23.762 +08:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-01-08 23:12:23.797 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Author", "p"."Body", "p"."LastModified", "p"."Title"
+FROM "Posts" AS "p"
+2019-01-08 23:12:23.891 +08:00 [INF] User profile is available. Using '/Users/wangshichao/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2019-01-08 23:12:24.898 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2019-01-08 23:12:25.019 +08:00 [INF] Request finished in 122.3566ms 404 
+2019-01-08 23:12:29.671 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/posts  
+2019-01-08 23:12:29.756 +08:00 [INF] Route matched with {action = "Get", controller = "Post"}. Executing action SWFU.CMS.API.Controllers.PostController.Get (SWFU.CMS.API)
+2019-01-08 23:12:29.790 +08:00 [INF] Executing action method SWFU.CMS.API.Controllers.PostController.Get (SWFU.CMS.API) - Validation state: "Valid"
+2019-01-08 23:12:29.799 +08:00 [INF] Entity Framework Core 2.2.0-rtm-35687 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-01-08 23:12:29.849 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-01-08 23:12:29.859 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Author", "p"."Body", "p"."LastModified", "p"."Title"
+FROM "Posts" AS "p"
+2019-01-08 23:12:29.872 +08:00 [ERR] Get All Posts......
+2019-01-08 23:12:29.877 +08:00 [INF] Executed action method SWFU.CMS.API.Controllers.PostController.Get (SWFU.CMS.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 82.767800000000008ms.
+2019-01-08 23:12:29.912 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[SWFU.CMS.Core.Entities.Post, SWFU.CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-01-08 23:12:30.005 +08:00 [INF] Executed action SWFU.CMS.API.Controllers.PostController.Get (SWFU.CMS.API) in 241.8493ms
+2019-01-08 23:12:30.035 +08:00 [INF] Request finished in 364.3008ms 200 application/json; charset=utf-8

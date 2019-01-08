@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{55052340-68DF-4FFB-96CF-34385975E67F}|Default">
+  <MonoDevelop.Ide.ItemProperties.SWFU.CMS.API PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SWFU.CMS.API/Controllers/PostController.cs">
+    <Files>
+      <File FileName="SWFU.CMS.API/Startup.cs" Line="1" Column="1" />
+      <File FileName="SWFU.CMS.API/appsettings.json" Line="1" Column="1" />
+      <File FileName="SWFU.CMS.Core/interfaces/IEntity.cs" Line="1" Column="1" />
+      <File FileName="SWFU.CMS.Core/interfaces/IPostRepository.cs" Line="1" Column="1" />
+      <File FileName="SWFU.CMS.Core/Entities/Post.cs" Line="1" Column="1" />
+      <File FileName="SWFU.CMS.API/Controllers/PostController.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

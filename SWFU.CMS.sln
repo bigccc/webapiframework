@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SWFU.CMS.API", "SWFU.CMS.API\SWFU.CMS.API.csproj", "{55052340-68DF-4FFB-96CF-34385975E67F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SWFU.CMS.Core", "SWFU.CMS.Core\SWFU.CMS.Core.csproj", "{3D9470F4-7534-49EE-9467-3E4143CD079D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SWFU.CMS.Insfrastructure", "SWFU.CMS.Insfrastructure\SWFU.CMS.Insfrastructure.csproj", "{BE666050-56ED-468D-940B-79E1F86F44DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55052340-68DF-4FFB-96CF-34385975E67F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55052340-68DF-4FFB-96CF-34385975E67F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55052340-68DF-4FFB-96CF-34385975E67F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55052340-68DF-4FFB-96CF-34385975E67F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D9470F4-7534-49EE-9467-3E4143CD079D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D9470F4-7534-49EE-9467-3E4143CD079D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D9470F4-7534-49EE-9467-3E4143CD079D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D9470F4-7534-49EE-9467-3E4143CD079D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE666050-56ED-468D-940B-79E1F86F44DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE666050-56ED-468D-940B-79E1F86F44DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE666050-56ED-468D-940B-79E1F86F44DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE666050-56ED-468D-940B-79E1F86F44DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
